@@ -1,7 +1,11 @@
 services:
-  nginx:
-    build: .
-    volumes:
-      - .:/code
-    ports:
-      - "80:80"
+  gunicorn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stop_signal: SIGINT
+
+networks:
+  default:
+    external: true
+    name: npm
