@@ -7,7 +7,39 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css')}}">
 </head>
 <body>
-    <h1>Under Construction</h1>
-    <img class="seth-image" src="{{ url_for('static', filename='seth-art.png')}}" alt="Art of me!" >
+    <div class="header">
+        <ul>    
+            <li><a>Portfolio</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Resume</a></li>
+        </ul>
+    </div>
+    <div style="display: flex;">
+        <div class="description">
+            <h1>
+                Hello! I'm Seth
+            </h1>
+            
+            <p>
+                Minima nobis molestiae accusantium eos et. Aut facere nihil qui. Laudantium dolorum nihil commodi explicabo.
+            </p>
+            <p>
+                Quis voluptates fugit sit dolores fugiat dolor et. Fugiat harum voluptas aut autem dignissimos. Repellendus dolorem illum fuga eum corporis minus quia quis.
+            </p>
+            <p>
+                Assumenda aut expedita eaque harum aut molestiae ea. Tempora tempore perspiciatis delectus quia. Doloremque mollitia voluptatem vel. Quod dolorem distinctio quam. Et voluptas nihil eum.
+            </p>
+            <p>
+                Perferendis laudantium laborum optio veritatis culpa eum. Iusto odit et incidunt sunt dolores. Et ut nisi minima. Asperiores consequatur eligendi cumque minus. Est eos laudantium nemo ut. Ex dolorum nobis recusandae est non unde unde.
+            </p>
+            <p>
+                Ullam architecto quibusdam dolor. Blanditiis rerum dolor consequatur eius officiis odio necessitatibus facilis. Ad itaque voluptatibus assumenda corrupti aut voluptas deserunt. Dolor enim impedit qui. Aperiam ullam perferendis nihil repudiandae molestiae explicabo.
+            </p>
+        </div>
+
+        <div class="image">
+            <img class="seth-image" src="{{ url_for('static', filename='seth-art.png')}}" alt="Art of me!" >
+        </div>
+    </div>
 </body>
 </html>

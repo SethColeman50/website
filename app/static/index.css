@@ -1,3 +1,24 @@
 .seth-image {
+    width: 100%;
+}
+
+.description {
+    float: left;
     width: 50%;
+}
+
+.image {
+    float: right;
+    width: 50%;
+}
+
+.header>ul>li {
+    color:orange;
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: black;
+}
+
+.header>ul {
+    list-style-type: none;
 }
