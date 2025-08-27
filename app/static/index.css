@@ -1,24 +1,58 @@
+body { 
+    background: #04356A;
+    margin: 0;
+    color: lightblue;
+}
+
 .seth-image {
     width: 100%;
 }
 
 .description {
+    margin: 1em;
     float: left;
     width: 50%;
+    vertical-align: middle
 }
 
 .image {
+    margin: 1em;
     float: right;
     width: 50%;
+    vertical-align: middle
 }
 
-.header>ul>li {
-    color:orange;
-    display: inline-block;
-    padding: 14px 16px;
-    background-color: black;
-}
-
-.header>ul {
+.nav-bar {
+    margin-right: 1em;
+    padding: 0.75em 1em;
     list-style-type: none;
+    background-color: #7d96c2;
+    border-radius: 1em;
+    
+
+    li {
+        display: inline-block;
+        padding: 14px 16px;
+        background-color: #5875a6;
+    }
+    
+    li:hover {
+        background-color: #4a618a;
+    }
+}
+
+.header {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background: #001D3f;
+}
+
+.title-bar {
+    flex: 1;
+    margin: 1em 1em 0;
+}
+
+.content {
+    display: flex;
 }
