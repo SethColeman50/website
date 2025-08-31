@@ -1,0 +1,48 @@
+.project {
+    display: flex;
+    margin: 1em;
+    background-color: #7d96c2;
+    padding: 1em;
+    border-radius: 1em;
+    gap: 1em;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.project-images {
+  min-width: 25%;
+}
+
+.project-images > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-info-wrapper {
+    min-width: 25%;
+}
+
+
+/* Inline | http://127.0.0.1:5000/portfolio */
+
+.intro-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin: 1em 0 2em;
+
+  img {
+    max-width: 128px;
+    border-radius: 50%;
+  }
+}
+
+.intro-title {
+  font-size: xxx-large;
+  font-weight: bold;
+}
+

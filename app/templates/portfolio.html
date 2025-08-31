@@ -4,9 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Test Page</title>
-        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='portfolio.css')}}">
     </head>
     <body>
         {% include "./header.html" %}
+        <div class="intro-wrapper">
+            <div class="intro-title">Portfolio</div>
+            <img src="../static/seth-art.png">
+        </div>
+        <div class="project">
+            <div class="project-info-wrapper">
+                <div class="title">Project Title</div>
+                <div class="description">
+                    Qui quod repudiandae totam. Neque labore asperiores eius cum velit tempora. Laborum et quod quia. Quibusdam et a magnam ipsa.
+                    Quo odio ut quo eos quod sunt autem. Dolores est rerum quia repellendus quae id est. Dolor incidunt facilis accusamus numquam.
+                    Est voluptatem ut maxime in inventore. Perferendis dolores odio inventore et libero quae optio nobis. Doloremque voluptas voluptatibus delectus. Assumenda reiciendis eum ducimus quia velit alias nesciunt. Possimus est eos at illum et vero. Consequatur natus dicta delectus
+                </div>
+            </div>
+            <div class="project-images">
+                <img src="../static/mtg-bot-usage.png">
+            </div>
+        </div>
     </body>
 </html>
