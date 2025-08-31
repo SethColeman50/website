@@ -7,14 +7,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css')}}">
 </head>
 <body>
-    <div class="header">
-        <h1 class="title-bar">orange.ender.boo</h1>
-        <ul class="nav-bar">    
-            <li><a>Portfolio</a></li>
-            <li><a>Contact</a></li>
-            <li><a>Resume</a></li>
-        </ul>
-    </div>
+    {% include "header.html" %}
     <div class="content-wrapper">
         <div class="description content">
             <h2>

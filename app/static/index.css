@@ -49,6 +49,11 @@ body {
         background-color: #5875a6;
     }
     
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
     li:hover {
         background-color: #4a618a;
     }
