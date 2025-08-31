@@ -6,20 +6,33 @@ body {
 
 .seth-image {
     width: 100%;
+    max-width: 512px;
+    object-fit: cover;
+    margin-top: 1em;
+}
+
+.content {
+    width: 100%;
 }
 
 .description {
-    margin: 1em;
     float: left;
-    width: 50%;
-    vertical-align: middle
+
+    p {
+        max-width: 450px
+    }
 }
 
 .image {
-    margin: 1em;
     float: right;
-    width: 50%;
-    vertical-align: middle
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
 }
 
 .nav-bar {
@@ -51,8 +64,4 @@ body {
 .title-bar {
     flex: 1;
     margin: 1em 1em 0;
-}
-
-.content {
-    display: flex;
 }
