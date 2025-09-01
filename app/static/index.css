@@ -6,7 +6,7 @@ body {
 
 .seth-image {
     width: 100%;
-    max-width: 512px;
+    max-width: 256px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -21,6 +21,10 @@ body {
 
     p {
         max-width: 450px
+    }
+
+    a {
+        color: #fefefe;
     }
 }
 
