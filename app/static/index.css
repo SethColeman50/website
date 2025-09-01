@@ -8,15 +8,15 @@ body {
     width: 100%;
     max-width: 512px;
     object-fit: cover;
-    margin-top: 1em;
+    border-radius: 50%;
 }
 
 .content {
-    width: 100%;
+    width: fit-content;
 }
 
 .blurb {
-    float: left;
+    min-width: 500px;
 
     p {
         max-width: 450px
@@ -24,8 +24,8 @@ body {
 }
 
 .image {
-    float: right;
     text-align: center;
+    min-width: 265px;
 }
 
 .content-wrapper {
@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
+    margin: 1em;
 }
 
 .nav-bar {
@@ -41,6 +42,7 @@ body {
     list-style-type: none;
     background-color: #7d96c2;
     border-radius: 1em;
+    min-width: fit-content;
     
 
     li {
