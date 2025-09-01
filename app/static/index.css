@@ -16,7 +16,7 @@ body {
 }
 
 .blurb {
-    min-width: 500px;
+    min-width: 300px;
 
     p {
         max-width: 450px
@@ -34,17 +34,19 @@ body {
     align-items: center;
     max-width: 100%;
     margin: 1em;
+    flex-wrap: wrap-reverse;
 }
 
 .nav-bar {
-    margin-right: 1em;
+    margin: 1em;
     padding: 0.75em 1em;
     list-style-type: none;
     background-color: #7d96c2;
     border-radius: 1em;
     min-width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
     
-
     li {
         display: inline-block;
         padding: 14px 16px;
@@ -66,6 +68,7 @@ body {
     padding: 0;
     margin: 0;
     background: #001D3f;
+    flex-wrap: wrap;
 }
 
 .title-bar {
