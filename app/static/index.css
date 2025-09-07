@@ -18,14 +18,10 @@ body {
 .blurb {
     min-width: 300px;
     margin-right: 1em;
+}
 
-    p {
-        max-width: 450px
-    }
-
-    a {
-        color: #fefefe;
-    }
+.blurb>p {
+    max-width: 450px;
 }
 
 .image {
@@ -51,21 +47,22 @@ body {
     min-width: fit-content;
     display: flex;
     flex-wrap: nowrap;
-    
-    li {
-        display: inline-block;
-        padding: 14px 16px;
-        background-color: #5875a6;
-    }
-    
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    li:hover {
-        background-color: #4a618a;
-    }
+}
+
+.nav-bar>li {
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: #5875a6;
+}
+
+.nav-bar>a {
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: #5875a6;
+}
+
+.nav-bar>li:hover {
+    background-color: #4a618a;
 }
 
 .header {
@@ -85,11 +82,15 @@ body {
     justify-content: center;
     display: flex;
     gap: 1em;
-    
-    img {
-        width: 45px;
+}
+
+.links>a>img {
+    width: 45px;
         /* credit: https://codepen.io/sosuke/pen/Pjoqqp */
         /* Target color: #7d98c3 */
-        filter: brightness(0) saturate(100%) invert(63%) sepia(23%) saturate(584%) hue-rotate(178deg) brightness(91%) contrast(86%);
-    }
+    filter: brightness(0) saturate(100%) invert(63%) sepia(23%) saturate(584%) hue-rotate(178deg) brightness(91%) contrast(86%);
+}
+
+a {
+    color: white;
 }
